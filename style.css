@@ -15,7 +15,8 @@ a:hover {
     text-decoration: none;
 }
 
-.btn {
+.btn,
+.nav-link {
     align-items: center;
     appearance: none;
     background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ffb0 100%);
@@ -48,16 +49,19 @@ a:hover {
     font-size: 14px;
 }
 
-.btn:focus {
+.btn:focus,
+.nav-link:focus {
     box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
 }
 
-.btn:hover {
+.btn:hover,
+.nav-link:hover {
     box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
     transform: translateY(-4px);
 }
 
-.btn:active {
+.btn:active,
+.nav-link:active {
     box-shadow: #3c4fe0 0 3px 7px inset;
     transform: translateY(2px);
 }
