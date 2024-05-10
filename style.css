@@ -11,15 +11,18 @@ a {
 
 }
 
-a:hover {
-    text-decoration: none;
+.navigation {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 30px;
 }
+
 
 .btn,
 .nav-link {
     align-items: center;
     appearance: none;
-    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ffb0 100%);
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
     border: 0;
     border-radius: 6px;
     box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
@@ -27,7 +30,7 @@ a:hover {
     color: #fff;
     cursor: pointer;
     display: inline-flex;
-    font-family: 'Raleway', sans-serif;
+    font-family: Helvetica, sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     height: 48px;
@@ -47,6 +50,7 @@ a:hover {
     white-space: nowrap;
     will-change: box-shadow, transform;
     font-size: 14px;
+    margin: 0px 16px;
 }
 
 .btn:focus,
@@ -63,5 +67,35 @@ a:hover {
 .btn:active,
 .nav-link:active {
     box-shadow: #3c4fe0 0 3px 7px inset;
-    transform: translateY(2px);
+    transform: translateY(6px);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url('/banner_bg.jpg');
+    height: 650px;
+    width: 100%;
+    margin: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+
+
+
+
+
+
+
+.activity {
+    border: 1px solid #2176FF;
+    cursor: pointer;
+    text-decoration: none;
 }
