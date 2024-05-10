@@ -17,7 +17,6 @@ a {
     padding: 30px;
 }
 
-
 .btn,
 .nav-link {
     align-items: center;
@@ -75,18 +74,42 @@ a:hover {
 }
 
 .banner {
+    display: flex;
     background-image: url('/banner_bg.jpg');
     height: 650px;
     width: 100%;
     margin: auto;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
-
 }
 
+.banner-text {
+    margin: 20px auto;
+    font-size: 46px;
+    color: white;
+    text-align: center;
+}
 
+.banner-text h1,
+h2 {
+    background-color: rgba(0, 0, 0, 0.164);
+    border-radius: 15px;
+    font-family: Helvetica, sans-serif;
+}
+
+.content {
+    margin-top: 60px;
+    background-image: url('./content_bg.jpg');
+    background-color: rgba(255, 255, 255, 0.61);
+    background-blend-mode: lighten;
+    text-align: center;
+    padding: 30px;
+    font-family: sans-serif;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
