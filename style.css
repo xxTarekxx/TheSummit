@@ -75,8 +75,8 @@ a:hover {
 
 .banner {
     display: flex;
-    /* background-image: url('/banner_bg.jpg'); */
-    background-image: url('https://images.unsplash.com/photo-1518784095177-ef1da6313126?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-image: url('./banner_bg.jpg');
+    /* background-image: url('https://images.unsplash.com/photo-1518784095177-ef1da6313126?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
     height: 650px;
     width: 100%;
     margin: auto;
@@ -159,7 +159,7 @@ h2 {
 }
 
 .Skiing {
-    background-image: url('/skiing_bg.jpg');
+    background-image: url('./skiing_bg.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -168,7 +168,7 @@ h2 {
 }
 
 .Snowboarding {
-    background-image: url('/snowboarding_bg.jpg');
+    background-image: url('./snowboarding_bg.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -177,7 +177,7 @@ h2 {
 }
 
 .Shoeing {
-    background-image: url('/Shoeing_bg.jpg');
+    background-image: url('./Shoeing_bg.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -186,7 +186,7 @@ h2 {
 }
 
 .Dogsledding {
-    background-image: url('/Dogsledding_bg.jpg');
+    background-image: url('./Dogsledding_bg.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -195,7 +195,7 @@ h2 {
 }
 
 .Tubing {
-    background-image: url('/Tubing_bg.jpg');
+    background-image: url('./Tubing_bg.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -204,7 +204,7 @@ h2 {
 }
 
 .Sledding {
-    background-image: url('/Sledding_bg.jpg');
+    background-image: url('./Sledding_bg.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
