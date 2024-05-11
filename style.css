@@ -75,7 +75,8 @@ a:hover {
 
 .banner {
     display: flex;
-    background-image: url('/banner_bg.jpg');
+    /* background-image: url('/banner_bg.jpg'); */
+    background-image: url('https://images.unsplash.com/photo-1518784095177-ef1da6313126?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     height: 650px;
     width: 100%;
     margin: auto;
@@ -212,9 +213,10 @@ h2 {
 }
 
 .footer {
-    background-color: #2176FF;
+    background-color: #96a2ff9c;
     padding: 30px;
     text-align: center;
+
 }
 
 .footer h2 {
@@ -223,4 +225,5 @@ h2 {
     font-size: 14px;
     font-weight: 100;
     letter-spacing: 2px;
+
 }
