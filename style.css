@@ -133,16 +133,16 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     word-spacing: 6px;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .activities-panel .activitiesHeader {
-    justify-content: flex-start;
-    align-items: flex-start;
+    grid-column: 1 / span 2;
 }
 
 .activity {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: auto auto;
+    padding: 40px;
+    border: black 2px solid;
 }
